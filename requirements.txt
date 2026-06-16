@@ -1,0 +1,48 @@
+# Core Framework
+fastapi==0.115.14
+uvicorn[standard]==0.35.0
+python-dotenv==1.1.1
+pydantic==2.11.7
+pydantic-settings==2.10.1
+python-multipart==0.0.20
+
+# Web UI
+gradio==5.35.0
+
+# ML / AI
+torch==2.8.0
+torchvision==0.23.0
+ultralytics==8.3.190
+sentence-transformers==5.1.0
+openai==1.93.0
+huggingface-hub==0.34.4
+
+# Vector Search
+faiss-cpu==1.11.0
+numpy==2.3.1
+
+# Data Processing
+opencv-python==4.12.0.88
+pypdf==6.0.0
+python-docx==1.2.0
+easyocr==1.7.2
+
+# Utilities
+requests==2.32.4
+psutil==7.0.0
+gtts==2.5.4
+wordcloud==1.9.4
+matplotlib==3.10.3
+reportlab==4.4.2
+
+# Task Queue (optional)
+redis==6.2.0
+celery==5.5.3
+
+# Testing
+pytest==8.4.1
+pytest-cov==6.2.1
+pytest-asyncio==1.1.0
+
+# Security
+cryptography==45.0.5
