@@ -94,6 +94,8 @@ class Config(BaseSettings):
         "qwen3/qwen3.6b:free",
         "Qwen/Qwen3.7-Max",
         "Qwen/Qwen3.7-Plus",
+         
+        "replit/replit-code-v1_5-3b",
 
         "nvidia/nemotron-3-super-120b-a12b:free",
         "nvidia/nemotron-3-ultra-500b-a55b:free",
