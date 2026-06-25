@@ -20,6 +20,24 @@ class ModelTier:
 
 
 MODELS = [
+    ModelTier(4096, "voyage-large-2"),
+    ModelTier(3072, "voyage-multimodal-3.5"),
+    ModelTier(2048, "BAAI/bge-en-icl"),
+    ModelTier(2048, "nvidia/NV-Embed-v2"),
+    ModelTier(1536, "thenlper/gte-large"),
+    ModelTier(1536, "cohere/embed-v4"),
+    ModelTier(1536, "Qwen/Qwen3-VL-Embedding"),
+    ModelTier(1024, "zembed-1"),
+    ModelTier(1024, "Harrier-0.6B"),
+    ModelTier(1024, "Salesforce/SFR-Embedding-Mistral"),
+    ModelTier(1024, "Qwen/Qwen3-Embedding"),
+    ModelTier(1024, "google/gemini-embedding-2"),
+    ModelTier(1024, "jinaai/jina-embeddings-v4"),
+    ModelTier(1024, "BAAI/bge-m3"),
+    ModelTier(768, "OpenAI/text-embedding-3-large"),
+    ModelTier(768, "jinaai/jina-embeddings-v3"),
+    ModelTier(768, "intfloat/e5-mistral-7b-instruct"),
+    ModelTier(512, "infgrad/stella_en_1.5B_v5"),
     ModelTier(1024, "Qwen/Qwen3-Embedding-8B"),
     ModelTier(512, "BAAI/bge-m3"),
     ModelTier(256, "jinaai/jina-embeddings-v3"),
@@ -101,6 +119,8 @@ class Config(BaseSettings):
         "nvidia/nemotron-3-ultra-500b-a55b:free",
         "nvidia/Nemotron-Nano-12B-v2-VL",
 
+        "google/veo-3",
+        "google/learnlm",
         "google/gemini-omni",
         "google/flan-t5-small",
         "google/gemini-3-deep-think",
@@ -113,6 +133,7 @@ class Config(BaseSettings):
         "openai:gpt-oss-120b:free",
         "openai/gpt-5.4-nano:free",
         "gpt-5.5b:free",
+        "openai/sora",
         "openai/gpt-5.5",
         "openai/gpt-5.5-pro",
         "openai/gpt-5.5-thinking",
@@ -124,6 +145,7 @@ class Config(BaseSettings):
         "anthropic/claude-opus-4.8",
         "anthropic/claude-fable-5",
         "anthropic/claude-mythos-5",
+        "anthropic/claude-next",
 
         "mistralai/Mistral-Medium-3.5",
         "mistralai/Mistral-Small-4",
@@ -146,6 +168,7 @@ class Config(BaseSettings):
         "moonshotai/kimi-k2.7-code",
 
         "microsoft/mai-thinking-1",
+        "microsoft/kosmos-3",
         "microsoft/mai-code-1-flash",
         "microsoft/phi-4-1.5b-it:free",
 
@@ -190,6 +213,7 @@ class Config(BaseSettings):
 
         "ai21/ai21-studio-1b:free",
         "ai21labs/Jamba-Large-1.7",
+        "ai21labs/Jamba-1.5-Large",
 
         "ai-sage/Kandinsky-5.0",
         "ai-sage/GigaChat-3-Ultra-Preview",
@@ -218,6 +242,54 @@ class Config(BaseSettings):
         "aisingapore/sea-lion-7b-instruct",
 
         "maritaca-ai/sabia-3",
+
+        "stepfun/step-3.5-flash",
+      
+        "minimax/text-01",
+    
+        "yi-lightning-01",
+
+        "IBM/granite",
+
+        "together/StripedHyena",
+
+        "Etalab/Pythia",  
+    
+        "garage-ai/garage-llm-2",
+
+        "openchat/openchat-3.6-8b",
+
+        "NousResearch/Nous-Hermes-2-Yi-34B",
+
+        "Undi95/ReMM-SL-7B",
+
+        "BAAI/InternVL-2.5",
+
+        "inflection-ai/inflection-3",
+
+        "character-ai/character-glm-4",
+
+        "auto-research/auto-researcher-7b",
+
+        "self-rewriting-models/SRM-7B",
+
+        "recursive-thinking/rt-1-32b",
+
+        "SiliconFlow/silicon-1-7b",
+
+        "SambaNova/sambanova-3-8b",
+
+        "mosaicml/mpt-30b-instruct",
+
+        "stabilityai/stablelm-3b-4e1t",
+
+        "midjourney/v7",
+
+        "black-forest-labs/FLUX.1-Krea-dev",  
+
+        "klingai/kling-2.0",
+
+        "01-ai/Yi-1.5-34B",
     ]
 
     class Config:
